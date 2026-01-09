@@ -698,8 +698,10 @@ val userStartingCourses = mutableStateListOf(
                 color = RedPink
             )
         )
-    ),)
-    val starred_Notes = mutableListOf(
+    ),
+)
+
+val starred_Notes = mutableListOf(
         Note(
             id = 1,
             title = "Algorithm Analysis",

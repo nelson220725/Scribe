@@ -2,36 +2,21 @@ package com.example.scribe
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import android.provider.ContactsContract.Data
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.activity.viewModels
-import androidx.compose.material.Button
-import androidx.compose.material.Text
-import androidx.compose.material3.Scaffold
-import androidx.compose.runtime.Composable
-import androidx.navigation.compose.rememberNavController
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
-import androidx.compose.ui.platform.LocalContext
-import com.example.scribe.navigation.BottomNavigationBar
+import androidx.navigation.compose.rememberNavController
 import com.example.scribe.navigation.MainNavigation
 import com.example.scribe.ui.theme.ScribeTheme
-import com.example.scribe.viewmodel.DataViewModel
 import com.example.scribe.viewmodel.MainViewModel
-import com.google.android.libraries.identity.googleid.GetGoogleIdOption
-import io.github.jan.supabase.createSupabaseClient
-import io.github.jan.supabase.gotrue.Auth
-import io.github.jan.supabase.gotrue.auth
-import io.github.jan.supabase.postgrest.Postgrest
 
 
 
 
 class MainActivity : ComponentActivity() {
 
-//    private val dataViewModel : DataViewModel by viewModels()
     @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -49,28 +34,10 @@ class MainActivity : ComponentActivity() {
             val searchText by mainViewModel.searchText.collectAsState()
             val courses by mainViewModel.searchCourses.collectAsState()
 
-//            val courseList by dataViewModel.courses.collectAsState()
-//            val noteList by dataViewModel.notes.collectAsState()
-//            val userList by dataViewModel.users.collectAsState()
-
-
-
-
             ScribeTheme {
-
-
-
-
-                    MainNavigation(navController, name, avatar, searchText, courses, mainViewModel, supabase)
-
-
-
+                MainNavigation(navController, name, avatar, searchText, courses, mainViewModel, supabase)
             }
         }
     }
 }
-
-
-
-
 

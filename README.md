@@ -1,23 +1,4 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -91,24 +72,18 @@ Cornell App Dev Hack Challenge Spring 2024
 ## Description
 Scribe is a mobile application designed to revolutionize the way students share and access lecture notes and study guides. Whether you're looking to catch up on missed lectures or enhance your understanding with supplementary materials, Scribe has you covered. Join Scribe today and embark on a journey of collaborative learning and academic excellence!
 ## Screenshots
-<div style="display: flex; flex-direction: row; justify-content: space-between">
-<img src = "https://github.com/AndrewCheung360/Scribe/assets/67351739/6344c9c4-98eb-40cf-897a-7992f414a19e" width = "200"/>
-  <img src = "https://github.com/AndrewCheung360/Scribe/assets/67351739/f1b01e87-5540-4c2a-b5d1-385eb7a4ae16" width = "200"/>
-</div>
-<hr/>
-<div>
 
-  <img src = "https://github.com/AndrewCheung360/Scribe/assets/67351739/84b59956-a3e2-4a92-8703-40ad68f12f3c" width = "200"/>)
-  <img src = "https://github.com/AndrewCheung360/Scribe/assets/67351739/85235d09-7c8b-4f7f-ac48-0654e4530684" width = "200"/>)
+<p align="center">
+  <img src="https://github.com/AndrewCheung360/Scribe/assets/67351739/6344c9c4-98eb-40cf-897a-7992f414a19e" width="200" alt="Sign In Screen"/>
+  <img src="https://github.com/AndrewCheung360/Scribe/assets/67351739/f1b01e87-5540-4c2a-b5d1-385eb7a4ae16" width="200" alt="Course Selection"/>
+  <img src="https://github.com/AndrewCheung360/Scribe/assets/67351739/84b59956-a3e2-4a92-8703-40ad68f12f3c" width="200" alt="Home Screen"/>
+</p>
 
-</div>
-
-<hr/>
-
-<div style="display: flex; justify-content: space-around">
-    <img src = "https://github.com/AndrewCheung360/Scribe/assets/67351739/7f844580-ce61-40b2-adc6-40feffbfbed1" width = "200"/>)
- <img src = "https://github.com/AndrewCheung360/Scribe/assets/67351739/d46901a3-9582-4b68-949f-54ec00708e82" width = "200"/>)
-</div>
+<p align="center">
+  <img src="https://github.com/AndrewCheung360/Scribe/assets/67351739/85235d09-7c8b-4f7f-ac48-0654e4530684" width="200" alt="Course Notes"/>
+  <img src="https://github.com/AndrewCheung360/Scribe/assets/67351739/7f844580-ce61-40b2-adc6-40feffbfbed1" width="200" alt="Note Viewer"/>
+  <img src="https://github.com/AndrewCheung360/Scribe/assets/67351739/d46901a3-9582-4b68-949f-54ec00708e82" width="200" alt="Profile Screen"/>
+</p>
  
 
 
@@ -133,9 +108,57 @@ Scribe is an Android app that allows Cornell students to share and view notes th
 ### Built With
 
 * ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+* ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
 * ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
 * ![Supabase](https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=white)
 * ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Getting Started
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+- Android Studio (latest version recommended)
+- JDK 8 or higher
+- Android SDK with minimum API level 24
+- A device or emulator running Android 7.0 (Nougato) or higher
+
+### Installation
+
+1. Clone the repository
+   ```sh
+   git clone https://github.com/AndrewCheung360/Scribe.git
+   ```
+
+2. Open the project in Android Studio
+   - Select "Open an Existing Project"
+   - Navigate to the cloned repository folder
+
+3. Configure your Google OAuth credentials
+   - Create a project in the [Google Cloud Console](https://console.cloud.google.com/)
+   - Enable the Google Sign-In API
+   - Add your OAuth 2.0 Client ID to the project
+
+4. Sync the project with Gradle files
+   - Android Studio should prompt you to sync automatically
+   - If not, click "File" > "Sync Project with Gradle Files"
+
+5. Build and run the project
+   - Connect an Android device or start an emulator
+   - Click the "Run" button or press Shift+F10
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Usage
+
+1. **Sign In**: Launch the app and sign in with your Google account
+2. **Add Courses**: Search for and add the courses you're enrolled in
+3. **Browse Notes**: Tap on any course to view notes shared by other students
+4. **Upload Notes**: Share your own notes by uploading PDF files to your courses
+5. **View Profile**: Access your uploaded notes and manage your account from the profile screen
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -184,20 +207,19 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
 Project Link: [https://github.com/AndrewCheung360/Scribe](https://github.com/AndrewCheung360/Scribe)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+This project was created for Cornell App Dev Hack Challenge Spring 2024.
+
+* [Jetpack Compose](https://developer.android.com/jetpack/compose)
+* [Supabase](https://supabase.com/)
+* [Ktor Client](https://ktor.io/docs/client.html)
+* [Best README Template](https://github.com/othneildrew/Best-README-Template)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
