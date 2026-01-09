@@ -109,7 +109,7 @@ Scribe is a mobile application designed to revolutionize the way students share 
     <img src = "https://github.com/AndrewCheung360/Scribe/assets/67351739/7f844580-ce61-40b2-adc6-40feffbfbed1" width = "200"/>)
  <img src = "https://github.com/AndrewCheung360/Scribe/assets/67351739/d46901a3-9582-4b68-949f-54ec00708e82" width = "200"/>)
 </div>
- 
+
 
 
 ## Key Features
@@ -187,6 +187,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
 Project Link: [https://github.com/AndrewCheung360/Scribe](https://github.com/AndrewCheung360/Scribe)
+Project Link: [https://github.com/nelson220725/Scribe](https://github.com/nelson220725/Scribe)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -232,4 +233,3 @@ Project Link: [https://github.com/AndrewCheung360/Scribe](https://github.com/And
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
